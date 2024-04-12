@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 16:14:13 by ryusupov          #+#    #+#             */
-/*   Updated: 2024/04/08 17:47:02 by ryusupov         ###   ########.fr       */
+/*   Updated: 2024/04/11 16:59:46 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ char	*remaining(t_struct *vars, char *buffer)
 
 char	*get_next_line(int fd)
 {
-	static char	*buffer[1024];
+	static char	*buffer[10240];
 	t_struct	*vars;
 	char		*result;
 
