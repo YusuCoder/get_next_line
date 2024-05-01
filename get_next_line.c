@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 16:14:13 by ryusupov          #+#    #+#             */
-/*   Updated: 2024/05/01 11:02:54 by ryusupov         ###   ########.fr       */
+/*   Updated: 2024/05/01 11:04:31 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,8 +102,6 @@ char	*get_next_line(int fd)
 
 // int	main(void)
 // {
-
-
 // 	int		fd;
 // 	char	*line;
 
