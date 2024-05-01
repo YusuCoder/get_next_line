@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 16:06:36 by ryusupov          #+#    #+#             */
-/*   Updated: 2024/04/08 17:46:33 by ryusupov         ###   ########.fr       */
+/*   Updated: 2024/04/29 16:44:48 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ typedef struct t_struct
 
 t_struct	*get_t_struct(int new_fd);
 size_t		ft_strlen(const char *s);
-char		*ft_strjoin(char *s1, char *s2);
+char		*ft_strjoin_new(char *s1, char *s2);
 char		*ft_strndup(char *str, int start, int end);
 char		*get_next_line(int fd);
 int			new_line(char *str);

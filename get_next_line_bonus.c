@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 16:14:13 by ryusupov          #+#    #+#             */
-/*   Updated: 2024/04/11 16:59:46 by ryusupov         ###   ########.fr       */
+/*   Updated: 2024/04/29 16:45:04 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*read_data(t_struct *vars, char *buffer)
 			return (NULL);
 		}
 		temp[i] = '\0';
-		buffer = ft_strjoin(buffer, temp);
+		buffer = ft_strjoin_new(buffer, temp);
 		if (buffer == NULL || ft_strlen(buffer) == 0)
 		{
 			free(buffer);

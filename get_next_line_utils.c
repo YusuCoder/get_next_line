@@ -6,13 +6,13 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/03 18:33:39 by ryusupov          #+#    #+#             */
-/*   Updated: 2024/04/11 17:07:59 by ryusupov         ###   ########.fr       */
+/*   Updated: 2024/04/29 16:44:40 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char	*ft_strjoin(char *s1, char *s2)
+char	*ft_strjoin_new(char *s1, char *s2)
 {
 	size_t	size;
 	char	*result;
